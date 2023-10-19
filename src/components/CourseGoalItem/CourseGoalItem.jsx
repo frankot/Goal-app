@@ -4,7 +4,10 @@ export default function CourseGoalItem(props) {
   };
 
   return (
-    <li className="bg-orange-700 px-4 py-2 m-6" onClick={deleteHandler}>
+    <li
+      className="m-6 rounded-lg bg-orange-700 px-4 py-2 duration-300 hover:bg-orange-900"
+      onClick={deleteHandler}
+    >
       {props.children}
     </li>
   );

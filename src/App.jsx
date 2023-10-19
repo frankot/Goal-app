@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="mx-auto max-w-2xl p-10">
       <CourseInput onAddGoal={addGoalHandler} />
       <section>{content}</section>
     </div>
